@@ -1,0 +1,73 @@
+
+body{
+
+    background-color: lightgrey;
+}
+
+.container{
+width: 1084px;
+height: fit-content;
+margin: auto;
+background-color: white;
+}
+
+/* #Thumbnail{ */
+  /* float:left */
+/* } */
+
+.heading{
+    color: rgb(37, 118, 118)
+}
+
+.script{
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+
+}
+
+img {
+    width: 300px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 1px;
+  }
+  
+  .top {
+    background-color: rgb(37, 118, 118);
+    width: 5em;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .caption{
+    font-size: 15px;
+    color: rgb(37, 118, 118);
+    align-items:center;
+    /* position: relative; */
+  }
+
+  .plot_1{
+    position: absolute;
+  top: 80%;
+  left: 50%;
+    /* position: absolute; */
+    /* left: 30px;
+    top: 10px */
+  }
+  .plot_2{
+  position: absolute;
+  top: 470%;
+  left: 50%;
+  }
+  .plot_3{
+    position: absolute;
+  top: 80%;
+  right: 45%;
+  }
+  .plot_4{
+    position: absolute;
+  right: 45%;
+  top: 470%;
+  }
